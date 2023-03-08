@@ -14,7 +14,7 @@
 2) ###### Jenkins/Maven/Ansible
     - Create an **Amazon Linux 2 VM** instance and call it "Jenkins"
     - Instance type: t2.large
-    - Security Group (Open): 8080, 9100 and 22 to 0.0.0.0/0
+    - Security Group (Open): 8080 (custom TCP), 9100(custom TCP) and 22 (SSH) to 0.0.0.0/0
     - Key pair: Select or create a new keypair
     - **Attach Jenkins server with IAM role having "AdministratorAccess"**
     - User data (Copy the following user data): https://github.com/sha-aws14/devops-fully-automated-v2/blob/installations/jenkins-maven-ansible-setup.sh
@@ -24,7 +24,7 @@
 3) ###### SonarQube
     - Create an Create an **Ubuntu 20.04** VM instance and call it "SonarQube"
     - Instance type: t2.medium
-    - Security Group (Open): 9000, 9100 and 22 to 0.0.0.0/0
+    - Security Group (Open): 9000 (custom TCP), 9100 (custom TCP) and 22 (SSH) to 0.0.0.0/0
     - Key pair: Select or create a new keypair
     - User data (Copy the following user data): https://github.com/sha-aws14/devops-fully-automated-v2/blob/installations/sonarqube-setup.sh
     - Launch Instance
