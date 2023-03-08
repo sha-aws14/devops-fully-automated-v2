@@ -44,14 +44,14 @@
     - Key pair: Select or create a new keypair
     - User data (Copy the following user data): https://github.com/sha-aws14/devops-fully-automated-v2/blob/installations/deployment-servers-setup.sh
     - Launch Instance
-    - After launching this Jenkins servers, attach a tag as **Key=Environment, value=dev/stage/prod** ( out of 6, each 2 instances could be tagges as one env)
+    - After launching this Jenkins servers, attach a tag as **Key=Environment, value=dev/stage/prod** ( out of 3, each instance could be tagges as one env)
 
 6) ###### Prometheus
     - Create Amazon Linux 2 VM instance and call it "Prometheus"
     - Instance type: t2.micro
     - Security Group (Open): 9090 and 22 to 0.0.0.0/0
     - Key pair: Select or create a new keypair
-    - **Attach Jenkins server with IAM role having "AmazonEC2ReadOnlyAccess"**
+    - **Attach Jenkins server with IAM role having "AmazonEC2ReadOnlyAccess"** (you can use jenkins role preciously created/used)
     - User data (Copy the following user data): https://github.com/sha-aws14/devops-fully-automated-v2/blob/installations/prometheus-setup.sh
     - Launch Instance
 
