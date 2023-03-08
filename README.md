@@ -38,7 +38,7 @@
     - Launch Instance
 
 5) ###### EC2 (Dev/Stage/Prod)
-    - Create 6 **Amazon Linux 2** VM instances
+    - Create 3 **Amazon Linux 2** VM instances
     - Instance type: t2.micro
     - Security Group (Open): 8080, 9100 and 22 to 0.0.0.0/0
     - Key pair: Select or create a new keypair
