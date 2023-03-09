@@ -169,6 +169,7 @@
             - Go to section SonarQube servers --> **Add SonarQube **
             - Name: **SonarQube**
             - Server URL: http://REPLACE-WITH-SONARQUBE-SERVER-PRIVATE-IP:9000          (replace SonarQube privat IP here)
+            - select sonarqube token 
             - Click on Save    
 
         2)  - Click on Manage Jenkins --> Configure System
