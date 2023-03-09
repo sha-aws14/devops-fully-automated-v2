@@ -109,11 +109,7 @@
 4)  #### Global tools configuration:
     - Click on Manage Jenkins --> Global Tool Configuration
 
-        **JDK** --> Add JDK --> Make sure **Install automatically** is enabled --> 
-        
-        **Note:** By default the **Install Oracle Java SE Development Kit from the website** make sure to close that option by clicking on the image as shown below.
-
-        ![JDKSetup!](https://github.com/sha-aws14/devops-fully-automated-v2/blob/main/jdk_setup.png)
+        **JDK** --> Add JDK --> Name= localJdk ---> Make sure **Install automatically** is enabled -
 
         * Click on Add installer
         * Select Extract *.zip/*.tar.gz --> Fill the below values
