@@ -131,6 +131,7 @@
                     - Generate Tokens: Fill **jenkins-token**
                     - Click on **Generate**
                     - Copy the token
+            - In jenkins website: manage jenkins--> manage credentials--> hover curser over "global" click "add credentials ---> change kind to secret text
             - Secret: Fill the secret token value that we have created on the SonarQube server
             - ID: sonarqube-token
             - Description: sonarqube-token
