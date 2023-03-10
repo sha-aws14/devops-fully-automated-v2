@@ -19,7 +19,7 @@ pipeline {
         stage('Git checkout') {
             steps {
                 echo 'Cloning the application code...'
-                git branch: 'main', url: 'https://github.com/cvamsikrishna11/devops-fully-automated.git'
+                git branch: 'main', url: 'https://github.com/sha-aws14/devops-fully-automated-v2.git'
 
             }
         }
@@ -66,7 +66,7 @@ pipeline {
                         sh """
                     mvn sonar:sonar \
                     -Dsonar.projectKey=maven \
-                    -Dsonar.host.url=http://172.31.20.13:9000 \
+                    -Dsonar.host.url=http://172.31.87.97:9000 \
                     -Dsonar.login=$SONAR_TOKEN
                     """
                     }
