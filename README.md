@@ -305,7 +305,7 @@ Once both the above steps are done click on Save.
 
 1) #### SonarQube IP change
     - Go back to your local, open your "devops-fully-automated" project on VSCODE (in git bash, in desktop location, type " git clone pasterepourl")
-    - Open "Jenkinsfile" & Replace the SonarQube server private ip on line number 69
+    - Open "Jenkinsfile" & Replace the SonarQube server private ip on line number 69, make sure git url is correct on line 22
     - Save the changes in both files
     - Finally push changes to repo
         
